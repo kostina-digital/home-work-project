@@ -1,0 +1,14 @@
+@use 'variables' as *;
+@use 'skin' as *;
+@use 'mixins' as *;
+@use 'mixins-media' as *;
+@use 'extends' as *;
+
+
+html {
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weigth-normal;
+    line-height: $line-height;
+    color: $color-main;
+}
